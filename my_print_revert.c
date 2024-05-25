@@ -1,12 +1,9 @@
-void my_print_revert(char *toRevert);
-
-void my_print_revert(char *str) {
-    int len = 0;
-    
-}
-
-int main(void)
+void print_char(char c);
+void my_print_revert(char *toRevert)
 {
-    my_print_revert("codingclub");
-    return 0;
+    int index = 0;
+    while(toRevert[index])
+    index++;
+    for (; index >= 0; index --)
+    print_char(toRevert[index]);
 }
