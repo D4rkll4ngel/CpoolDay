@@ -1,0 +1,40 @@
+main my print ascii
+int main(void)
+{
+    my_print_ascii();
+    return 0;
+}
+
+main my print n ascii
+int main(void)
+{
+    my_print_n_ascii(5);
+    return 0;
+}
+
+int main(void)
+{
+    my_print_n_ascii(-2);
+    return 0;
+}
+
+int main(void)
+{
+    my_print_n_ascii(100);
+    return 0;
+}
+
+main my print revert
+int main(void)
+{
+    my_print_revert("codingclub");
+    return 0;
+}
+
+main my char replace
+int main(int ac, char **av)
+{
+    char str[] = "bienvenue à epitech !";
+    printf("%s\n", my_char_replace(str, 'e', 'a'));
+    return 0;
+}
