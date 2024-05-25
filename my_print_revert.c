@@ -7,9 +7,3 @@ void my_print_revert(char *toRevert)
     for (; index >= 0; index --)
     print_char(toRevert[index]);
 }
-
-int main(void)
-{
-    my_print_revert("codingclub");
-    return 0;
-}
